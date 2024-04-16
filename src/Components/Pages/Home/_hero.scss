@@ -1,0 +1,325 @@
+.hero-container {
+  height: auto;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero-wrapper {
+    height: 750px;
+    width: 70%;
+    background-image: url("./images/hero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    // hero text
+    .hero-text {
+      color: white;
+      font-size: 38px;
+
+      span {
+        color: #7a9e43;
+      }
+    }
+
+    // cards
+    .cards-wrapper {
+      height: 250px;
+      width: 95%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      top: 100px;
+
+      //   card-1
+      .link {
+        text-decoration: none;
+        list-style-type: none;
+      }
+
+      .card-1 {
+        height: 200px;
+        width: auto;
+        border-radius: 30px;
+        background-image: url("./images/online.png");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          margin-bottom: 50px;
+        }
+
+        .card-desc {
+          height: 100%;
+          width: 210px;
+          background: linear-gradient(
+            to bottom,
+            transparent,
+            rgba(0, 0, 0, 0.8)
+          );
+          border-radius: 30px;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+          flex-direction: column;
+          cursor: pointer;
+
+          &:hover {
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.2),
+              rgba(0, 0, 0, 1)
+            );
+            border-radius: 30px;
+          }
+
+          .paras {
+            margin: 0 0 20px 15px;
+
+            .page-name {
+              font-size: 28px;
+              font-weight: bolder;
+              color: white;
+            }
+
+            .explore {
+              font-size: 18px;
+              color: #7a9e43;
+            }
+          }
+        }
+      }
+
+      //   card-2
+      .card-2 {
+        height: 200px;
+        width: auto;
+        border-radius: 30px;
+        background-image: url("./images/outlet.png");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          margin-bottom: 50px;
+        }
+
+        .card-desc {
+          height: 100%;
+          width: 210px;
+          background: linear-gradient(
+            to bottom,
+            transparent,
+            rgba(0, 0, 0, 0.8)
+          );
+          border-radius: 30px;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+          flex-direction: column;
+          cursor: pointer;
+
+          &:hover {
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.2),
+              rgba(0, 0, 0, 1)
+            );
+            border-radius: 30px;
+          }
+
+          .paras {
+            margin: 0 0 20px 15px;
+
+            .page-name {
+              font-size: 28px;
+              font-weight: bolder;
+              color: white;
+            }
+
+            .explore {
+              font-size: 18px;
+              color: #7a9e43;
+            }
+          }
+        }
+      }
+
+      //   card-3
+      .card-3 {
+        height: 200px;
+        width: auto;
+        border-radius: 30px;
+        background-image: url("./images/contact.png");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          margin-bottom: 50px;
+        }
+
+        .card-desc {
+          height: 100%;
+          width: 210px;
+          background: linear-gradient(
+            to bottom,
+            transparent,
+            rgba(0, 0, 0, 0.8)
+          );
+          border-radius: 30px;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+          flex-direction: column;
+          cursor: pointer;
+
+          &:hover {
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.2),
+              rgba(0, 0, 0, 1)
+            );
+            border-radius: 30px;
+          }
+
+          .paras {
+            margin: 0 0 20px 15px;
+
+            .page-name {
+              font-size: 28px;
+              font-weight: bolder;
+              color: white;
+            }
+
+            .explore {
+              font-size: 18px;
+              color: #7a9e43;
+            }
+          }
+        }
+      }
+      //   card-4
+      .card-4 {
+        height: 200px;
+        width: auto;
+        border-radius: 30px;
+        background-image: url("./images/product.png");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          margin-bottom: 50px;
+        }
+
+        .card-desc {
+          height: 100%;
+          width: 210px;
+          background: linear-gradient(
+            to bottom,
+            transparent,
+            rgba(0, 0, 0, 0.8)
+          );
+          border-radius: 30px;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+          flex-direction: column;
+          cursor: pointer;
+
+          &:hover {
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.2),
+              rgba(0, 0, 0, 1)
+            );
+            border-radius: 30px;
+          }
+
+          .paras {
+            margin: 0 0 20px 15px;
+
+            .page-name {
+              font-size: 28px;
+              font-weight: bolder;
+              color: white;
+            }
+
+            .explore {
+              font-size: 18px;
+              color: #7a9e43;
+            }
+          }
+        }
+      }
+      //   card-5
+      .card-5 {
+        height: 200px;
+        width: auto;
+        border-radius: 30px;
+        background-image: url("./images/about.png");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          margin-bottom: 50px;
+        }
+
+        .card-desc {
+          height: 100%;
+          width: 210px;
+          background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1));
+          border-radius: 30px;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+          flex-direction: column;
+          cursor: pointer;
+
+          &:hover {
+            background: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.2),
+              rgba(0, 0, 0, 1)
+            );
+            border-radius: 30px;
+          }
+
+          .paras {
+            margin: 0 0 20px 15px;
+
+            .page-name {
+              font-size: 28px;
+              font-weight: bolder;
+              color: white;
+            }
+
+            .explore {
+              font-size: 18px;
+              color: #7a9e43;
+            }
+          }
+        }
+      }
+    }
+  }
+}

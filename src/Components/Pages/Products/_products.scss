@@ -1,0 +1,96 @@
+.product-wrapper {
+  height: 100%;
+  width: 99vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  .product-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .title-wrap {
+      height: auto;
+      width: 100%;
+      background-color: #373737;
+
+      .product-title {
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+
+        h2 {
+          color: white;
+
+          span {
+            color: #7a9e43;
+          }
+        }
+      }
+    }
+
+    // Product sold
+    .sold-wrapper {
+      height: auto;
+      width: 70%;
+
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+
+        h3 {
+          font-size: 40px;
+          color: #7a9e43;
+
+          span {
+            color: #373737;
+          }
+        }
+      }
+
+      //   items
+      .item-1 {
+        min-height: 450px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .card-wrapper {
+          height: 315px;
+          width: 23%;
+          margin-left: 40px;
+          border-radius: 5px;
+          border: 1px solid gray;
+
+          .image {
+            height: 250px;
+            background-image: url("./image/sack.png");
+            background-size: cover;
+          }
+
+          .desc {
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #373737;
+
+            .link {
+              color: #373737;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+.about-container {
+  height: auto;
+  width: 99vw;
+
+  .about-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    // About wrap
+    .about-wrap {
+      width: 100%;
+      background-color: #373737;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .about-title {
+        min-height: 350px;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .title {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          h2 {
+            font-size: 60px;
+            color: white;
+
+            span {
+              color: #7a9e43;
+            }
+          }
+        }
+
+        .title-img {
+          img {
+            position: relative;
+            top: 60px;
+          }
+        }
+      }
+    }
+
+    // About details
+    .about-details-wrapper {
+      width: 70%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+
+      // left flank
+      .left {
+        width: 40%;
+        height: 100%;
+
+        // for info
+        .info {
+          height: auto;
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+
+          .info-title {
+            font-size: 28px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            color: #373737;
+
+            span {
+              color: #7a9e43;
+            }
+          }
+
+          .info-content {
+            font-size: 18px;
+            color: #5c5e56;
+          }
+        }
+
+        // for vision
+        .vision {
+          height: auto;
+          width: 100%;
+          padding: 10px;
+
+          .vision-title {
+            font-size: 28px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            color: #373737;
+
+            span {
+              color: #7a9e43;
+            }
+          }
+          .vision-content {
+            font-size: 18px;
+            color: #5c5e56;
+          }
+        }
+      }
+
+      // right flank
+      .right {
+        height: 100%;
+        width: 50%;
+
+        .food {
+          height: 100%;
+          width: 100%;
+
+          .food-img {
+            height: 400px;
+            background-image: url("./images/food.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        }
+
+        .message {
+          height: auto;
+          width: 100%;
+
+          .message-title {
+            font-size: 28px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            color: #373737;
+
+            span {
+              color: #7a9e43;
+            }
+          }
+
+          .message-content {
+            font-size: 18px;
+            color: #5c5e56;
+          }
+        }
+      }
+    }
+  }
+}

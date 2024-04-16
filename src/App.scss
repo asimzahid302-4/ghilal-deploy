@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+@import "./Global/topBar";
+@import "./Global/footer";
+@import "./Components/Pages/Home/hero";
+@import "./Components/Pages/AboutUs/aboutUs";
+@import "./Components/Pages/ContactUs/contactUs";
+@import "./Components/Pages/Products/products";
+@import "./Components/ProductDetails/productDetails";

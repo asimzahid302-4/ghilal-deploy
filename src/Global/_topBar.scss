@@ -1,0 +1,33 @@
+.container {
+  min-height: auto;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    // for logo
+    .logo {
+      margin: 5px 0 5px 0;
+    }
+
+    // for language
+    .language {
+      select {
+        padding: 3px;
+        border: transparent;
+        background-color: transparent;
+        color: #9fbb8d;
+
+        .option {
+          background-color: whitesmoke;
+        }
+      }
+    }
+  }
+}

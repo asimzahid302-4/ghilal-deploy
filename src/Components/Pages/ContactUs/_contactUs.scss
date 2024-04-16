@@ -1,0 +1,257 @@
+.contact-container {
+  height: auto;
+  width: 99vw;
+
+  .contact-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    // Contact wrap
+    .contact-wrap {
+      width: 100%;
+      background-color: #373737;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .contact-title {
+        min-height: 350px;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .title {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-right: -150px;
+
+          h2 {
+            font-size: 60px;
+            color: white;
+
+            span {
+              color: #7a9e43;
+            }
+          }
+        }
+
+        .title-img {
+          img {
+            position: relative;
+            top: 60px;
+          }
+        }
+      }
+    }
+
+    // contact details wrapper
+    .contact-details-wrapper {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 100px;
+
+      //   title
+      .in-touch-wrapper {
+        width: auto;
+        padding: 10px;
+
+        h2 {
+          font-size: 40px;
+          color: #7a9e43;
+
+          span {
+            color: #707070;
+          }
+        }
+      }
+
+      //   general details
+
+      .general-details-wrapper {
+        height: auto;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        // form details
+        .form-wrapper {
+          height: 100%;
+          width: 45%;
+
+          .form-content {
+            padding: 20px 40px;
+
+            label {
+              color: #707070;
+            }
+
+            input {
+              margin-bottom: 20px;
+              padding: 4px 8px;
+              width: 90%;
+              height: 40px;
+              border-radius: 4px;
+              border: 1px solid gray;
+            }
+
+            .submit {
+              background-color: #7a9e43;
+              width: 95%;
+              height: 40px;
+              color: white;
+              font-size: 18px;
+              border: transparent;
+              border-radius: 5px;
+              font-weight: bold;
+              margin-top: 10px;
+            }
+          }
+        }
+
+        // contact numers details
+        .contact-wrapper {
+          background-color: #373737;
+          height: 100%;
+          width: 50%;
+
+          .contact-content {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-left: 60px;
+
+            // wrappers
+            .contact-info-wrapper {
+              width: 60%;
+              padding: 70px 10px;
+              color: white;
+
+              .title {
+                margin-bottom: 20px;
+                font-size: 20px;
+              }
+
+              .desc {
+                font-size: 15px;
+                color: whitesmoke;
+              }
+            }
+
+            // wholsale wrapper
+            .wholsale-wrapper {
+              padding: 0 10px;
+              width: 80%;
+              padding-bottom: 40px;
+
+              .title {
+                color: #76823a;
+                border-bottom: 1px solid #76823a;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+              }
+
+              .flex-wholesale {
+                display: flex;
+                justify-content: flex-start;
+                align-items: start;
+                flex-direction: column;
+
+                .top-flex {
+                  width: 100%;
+                  height: auto;
+                  display: flex;
+                  justify-content: space-between;
+
+                  .number {
+                    width: 30%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    color: white;
+                  }
+
+                  .mail {
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    color: white;
+
+                    img {
+                      margin-right: 20px;
+                    }
+
+                    .context {
+                      height: auto;
+                    }
+                  }
+                }
+
+                .whatsapp-wrapper {
+                  width: 45%;
+                  display: flex;
+                  justify-content: space-evenly;
+                  align-items: flex-start;
+                  color: white;
+                  margin-top: 20px;
+                  margin-bottom: 50px;
+                }
+              }
+            }
+          }
+
+          //   Other wrapper
+          .other-queries-wrapper {
+            padding: 0 10px;
+            width: 80%;
+            padding-bottom: 40px;
+
+            .title {
+              color: #76823a;
+              border-bottom: 1px solid #76823a;
+              padding-bottom: 10px;
+              margin-bottom: 20px;
+            }
+
+            .flex-box {
+              height: 100%;
+              display: flex;
+              justify-content: space-evenly;
+              align-items: flex-start;
+              flex-direction: column;
+
+              .other-number {
+                width: 45%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                color: white;
+                margin-bottom: 30px;
+              }
+
+              .other-whatsapp {
+                width: 45%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                color: white;
+                margin-bottom: 50px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
