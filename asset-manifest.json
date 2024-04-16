@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ghilal-deploy/static/css/main.db06e892.css",
+    "main.js": "/ghilal-deploy/static/js/main.657d7104.js",
+    "static/media/hero.png": "/ghilal-deploy/static/media/hero.730fccd8128b2e43f30a.png",
+    "static/media/food.png": "/ghilal-deploy/static/media/food.a0bd97d8d16c99c5bda7.png",
+    "static/media/sack.png": "/ghilal-deploy/static/media/sack.af218ff6e8ff2a7a2eb6.png",
+    "static/media/sack2.png": "/ghilal-deploy/static/media/sack2.af218ff6e8ff2a7a2eb6.png",
+    "static/media/phone.svg": "/ghilal-deploy/static/media/phone.30b9d8d11c32b9b377d41615230be0c5.svg",
+    "static/media/product.png": "/ghilal-deploy/static/media/product.f6069632a34c2c59442a.png",
+    "static/media/contact.png": "/ghilal-deploy/static/media/contact.e26617b68c7065323fe4.png",
+    "static/media/about.png": "/ghilal-deploy/static/media/about.ed98e3381d17d8b66e12.png",
+    "static/media/outlet.png": "/ghilal-deploy/static/media/outlet.ffd75f6047ffb8f04506.png",
+    "static/media/online.png": "/ghilal-deploy/static/media/online.da52c4c077a47ad1b46b.png",
+    "static/media/grain.svg": "/ghilal-deploy/static/media/grain.91bceb17e87104b6d62dcfc69e770ad1.svg",
+    "static/media/whatsapp.svg": "/ghilal-deploy/static/media/whatsapp.badbd16c8ae19b1f7e59e65b2202de3d.svg",
+    "static/media/mail.svg": "/ghilal-deploy/static/media/mail.6848d4d0319d7fece601434ca7dffaa3.svg",
+    "index.html": "/ghilal-deploy/index.html",
+    "static/media/number.svg": "/ghilal-deploy/static/media/number.ab808306cdfe7bb7f6919cd1c5439a86.svg",
+    "main.db06e892.css.map": "/ghilal-deploy/static/css/main.db06e892.css.map",
+    "main.657d7104.js.map": "/ghilal-deploy/static/js/main.657d7104.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db06e892.css",
+    "static/js/main.657d7104.js"
+  ]
+}
